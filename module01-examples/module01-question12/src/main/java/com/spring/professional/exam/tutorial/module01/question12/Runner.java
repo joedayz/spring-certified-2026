@@ -4,11 +4,16 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Runner {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
+        // Set app-home system property if not already set
+        if (System.getProperty("app-home") == null) {
+            System.setProperty("app-home", System.getProperty("user.home") + "/app-config");
+        }
+        
+        try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfiguration.class)) {
+            context.registerShutdownHook();
 
-        context.registerShutdownHook();
-
-        SpringBean bean = context.getBean(SpringBean.class);
-        bean.printProperties();
+            SpringBean bean = context.getBean(SpringBean.class);
+            bean.printProperties();
+        }
     }
 }
