@@ -9,7 +9,7 @@ public class Runner {
         context.registerShutdownHook();
 
         // Activate profile
-        context.getEnvironment().setActiveProfiles("database");
+        context.getEnvironment().setActiveProfiles("file");
         context.register(ApplicationConfiguration.class);
         context.refresh();
 

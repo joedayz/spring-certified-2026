@@ -33,6 +33,7 @@ public class RecordsService01 {
     private RecordsValidator recordsValidator;
 
     public RecordsService01() {
+        System.out.println("Constructor called: " + getClass().getSimpleName());
         System.out.println(
                 getClass().getSimpleName() + " recordsReader = " + recordsReader + "\n" +
                         getClass().getSimpleName() + " recordsBackup = " + recordsBackup + "\n" +

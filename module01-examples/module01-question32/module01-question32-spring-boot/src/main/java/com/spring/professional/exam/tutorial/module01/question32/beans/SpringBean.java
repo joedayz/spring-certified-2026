@@ -9,13 +9,13 @@ public class SpringBean {
     private String appDefaultProperty;
     @Value("${app.dev.property}")
     private String appDevProperty;
-    @Value("${app.vm.property}")
+    @Value("${app.vm.property:''}")
     private String appVmProperty;
-    @Value("${app.env.property}")
+    @Value("${app.env.property:''}")
     private String appEnvProperty;
-    @Value("${app.json.property}")
+    @Value("${app.json.property:''}")
     private String appJsonProperty;
-    @Value("${app.cli.property}")
+    @Value("${app.cli.property:''}")
     private String appCliProperty;
     @Value("${random.int}")
     private int appRandomProperty;

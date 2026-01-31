@@ -15,7 +15,9 @@ public class EmployeesSalariesReportService {
     private final EmployeeSalaryCalculator employeeSalaryCalculator;
     private final SalaryReport salaryReport;
 
-    EmployeesSalariesReportService(EmployeeDao employeeDao, EmployeeSalaryCalculator employeeSalaryCalculator, SalaryReport salaryReport) {
+    EmployeesSalariesReportService(EmployeeDao employeeDao,
+                                   EmployeeSalaryCalculator employeeSalaryCalculator,
+                                   SalaryReport salaryReport) {
         this.employeeDao = employeeDao;
         this.employeeSalaryCalculator = employeeSalaryCalculator;
         this.salaryReport = salaryReport;

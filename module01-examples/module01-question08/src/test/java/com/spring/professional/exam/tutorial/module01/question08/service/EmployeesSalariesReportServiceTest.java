@@ -20,4 +20,5 @@ public class EmployeesSalariesReportServiceTest {
 
         // assertions to check if code worked correctly
     }
+
 }

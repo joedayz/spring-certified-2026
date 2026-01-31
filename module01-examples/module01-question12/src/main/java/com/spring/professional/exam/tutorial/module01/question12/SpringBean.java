@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpringBean {
 
-    @Value("${db.host}")
+    @Value("${pepito}")
     private String dbHost;
     @Value("${app.envid}")
     private String appEndId;
