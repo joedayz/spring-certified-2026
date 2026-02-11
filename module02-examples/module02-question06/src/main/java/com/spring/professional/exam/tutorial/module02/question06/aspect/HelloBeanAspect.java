@@ -7,7 +7,7 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 @Aspect
 public class HelloBeanAspect {
     @Pointcut("within(com.spring.professional.exam.tutorial.module02.question06.beans.*)")

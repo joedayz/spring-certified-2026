@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="module03-question19" />
+        <module name="module03-question17" />
+        <module name="module03-question18" />
+        <module name="module03-question16" />
+        <module name="module03-question13" />
+        <module name="module03-question02-standalone" />
+        <module name="module03-question14" />
+        <module name="module03-question11" />
+        <module name="module03-question12" />
+        <module name="module03-question10" />
+        <module name="module03-question03-template-design-pattern" />
+        <module name="module03-question23-jpa-tx" />
+        <module name="module03-question15-aspectj" />
+        <module name="module03-question08" />
+        <module name="module03-question09" />
+        <module name="module03-question23-jta-tx" />
+        <module name="module03-question06" />
+        <module name="module03-question28" />
+        <module name="module03-question07" />
+        <module name="module03-question29" />
+        <module name="module03-question26" />
+        <module name="module03-question05" />
+        <module name="module03-question27" />
+        <module name="module03-question25" />
+        <module name="module03-question02-embedded-builder" />
+        <module name="module03-question22" />
+        <module name="module03-question01" />
+        <module name="module03-question20" />
+        <module name="module03-question21" />
+        <module name="module03-question24-spring-framework" />
+        <module name="module03-question04-callback" />
+        <module name="module03-question02-application-server" />
+        <module name="module03-question02-boot" />
+        <module name="module03-question04-jdbc-callbacks" />
+        <module name="module03-question15-spring-proxy" />
+        <module name="module03-question03-jdbc-template" />
+        <module name="module03-question24-spring-boot" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
