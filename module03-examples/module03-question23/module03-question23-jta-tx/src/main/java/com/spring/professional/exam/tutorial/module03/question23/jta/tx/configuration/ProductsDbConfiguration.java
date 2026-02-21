@@ -35,7 +35,7 @@ public class ProductsDbConfiguration {
     @Bean
     public DataSource productsDataSource() throws SQLException {
         MysqlXADataSource mysqlXADataSource = new MysqlXADataSource();
-        mysqlXADataSource.setURL("jdbc:mysql://localhost:3306/spring-tutorial-products");
+        mysqlXADataSource.setURL("jdbc:mysql://localhost:3306/spring-tutorial-products?serverTimezone=UTC&allowPublicKeyRetrieval=true");
         mysqlXADataSource.setUser("spring-tutorial");
         mysqlXADataSource.setPassword("spring-tutorial");
         mysqlXADataSource.setPinGlobalTxToPhysicalConnection(true);

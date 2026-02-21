@@ -1,3 +1,4 @@
+-- Schema para MySQL 8 (JTA demo)
 drop database if exists `spring-tutorial-employees`;
 drop database if exists `spring-tutorial-products`;
 drop user if exists `spring-tutorial`@'localhost';
@@ -5,9 +6,11 @@ drop user if exists `spring-tutorial`@'localhost';
 create database `spring-tutorial-employees`;
 create database `spring-tutorial-products`;
 
+-- MySQL 8: usuario con autenticación por defecto (caching_sha2_password)
 create user `spring-tutorial`@'localhost' identified by 'spring-tutorial';
-grant all privileges on `spring-tutorial-employees`.* TO `spring-tutorial`@'localhost';
-grant all privileges on `spring-tutorial-products`.* TO `spring-tutorial`@'localhost';
+grant all privileges on `spring-tutorial-employees`.* to `spring-tutorial`@'localhost';
+grant all privileges on `spring-tutorial-products`.* to `spring-tutorial`@'localhost';
+flush privileges;
 
 create table `spring-tutorial-employees`.`employee`(
     id int,

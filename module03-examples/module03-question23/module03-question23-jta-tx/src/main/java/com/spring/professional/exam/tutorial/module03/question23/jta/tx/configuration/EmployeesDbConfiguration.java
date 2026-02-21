@@ -35,7 +35,7 @@ public class EmployeesDbConfiguration {
     @Bean
     public DataSource employeesDataSource() throws SQLException {
         MysqlXADataSource mysqlXADataSource = new MysqlXADataSource();
-        mysqlXADataSource.setURL("jdbc:mysql://localhost:3306/spring-tutorial-employees");
+        mysqlXADataSource.setURL("jdbc:mysql://localhost:3306/spring-tutorial-employees?serverTimezone=UTC&allowPublicKeyRetrieval=true");
         mysqlXADataSource.setUser("spring-tutorial");
         mysqlXADataSource.setPassword("spring-tutorial");
         mysqlXADataSource.setPinGlobalTxToPhysicalConnection(true);

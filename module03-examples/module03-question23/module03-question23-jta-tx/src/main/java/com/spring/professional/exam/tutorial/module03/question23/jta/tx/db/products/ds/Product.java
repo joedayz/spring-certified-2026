@@ -7,11 +7,13 @@ import lombok.ToString;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @AllArgsConstructor
 @Getter
 @Setter
 @Entity
+@Table(name = "product")
 @ToString
 public class Product {
     @Id
