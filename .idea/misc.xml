@@ -7,6 +7,8 @@
       <list>
         <option value="$PROJECT_DIR$/module01-examples/pom.xml" />
         <option value="$PROJECT_DIR$/module02-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/module04-examples/module04-guide-31-web/pom.xml" />
+        <option value="$PROJECT_DIR$/module04-examples/module04-guide-32-rest/pom.xml" />
       </list>
     </option>
   </component>

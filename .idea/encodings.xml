@@ -127,5 +127,9 @@
     <file url="file://$PROJECT_DIR$/module02-examples/module02-question09/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module02-examples/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module02-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-31-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-31-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-32-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-32-rest/src/main/resources" charset="UTF-8" />
   </component>
 </project>

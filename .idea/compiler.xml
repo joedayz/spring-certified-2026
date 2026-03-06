@@ -36,6 +36,7 @@
         <module name="module01-question33" />
         <module name="module01-question31" />
         <module name="module01-question06-boot-web" />
+        <module name="module04-guide-32-rest" />
         <module name="module01-question05" />
         <module name="module01-question04" />
         <module name="module01-question03" />
@@ -63,6 +64,7 @@
         <module name="module01-question10-annotations" />
         <module name="module01-question06-web-servlet3-xml" />
         <module name="module01-question09-boot" />
+        <module name="module04-guide-31-web" />
       </profile>
     </annotationProcessing>
   </component>
