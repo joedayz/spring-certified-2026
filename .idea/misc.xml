@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/module04-examples/module04-guide-41-testing/pom.xml" />
         <option value="$PROJECT_DIR$/module04-examples/module04-guide-42-testing-advanced/pom.xml" />
         <option value="$PROJECT_DIR$/module05-examples/module05-guide-51-concepts/pom.xml" />
+        <option value="$PROJECT_DIR$/module05-examples/module05-guide-52-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/module05-examples/module05-guide-53-method-security/pom.xml" />
       </list>
     </option>
   </component>

@@ -19,6 +19,7 @@
         <module name="module01-question22" />
         <module name="module01-question21" />
         <module name="module01-question20" />
+        <module name="module05-guide-53-method-security" />
         <module name="module02-question07" />
         <module name="module02-question08" />
         <module name="module02-question09" />
@@ -51,6 +52,7 @@
         <module name="module01-question10-java-config" />
         <module name="module01-question10-stereotypes" />
         <module name="module01-question16" />
+        <module name="module05-guide-52-auth" />
         <module name="module01-question06-web-servlet3-annotation" />
         <module name="module01-question15" />
         <module name="module01-question14" />
