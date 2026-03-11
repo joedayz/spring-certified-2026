@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/module02-examples/pom.xml" />
         <option value="$PROJECT_DIR$/module04-examples/module04-guide-31-web/pom.xml" />
         <option value="$PROJECT_DIR$/module04-examples/module04-guide-32-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/module04-examples/module04-guide-41-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/module04-examples/module04-guide-42-testing-advanced/pom.xml" />
+        <option value="$PROJECT_DIR$/module05-examples/module05-guide-51-concepts/pom.xml" />
       </list>
     </option>
   </component>

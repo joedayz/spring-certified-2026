@@ -131,5 +131,11 @@
     <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-31-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-32-rest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-32-rest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-41-testing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-41-testing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-42-testing-advanced/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module04-examples/module04-guide-42-testing-advanced/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module05-examples/module05-guide-51-concepts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module05-examples/module05-guide-51-concepts/src/main/resources" charset="UTF-8" />
   </component>
 </project>
